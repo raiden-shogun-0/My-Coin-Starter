@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07FF33552BE14501003EE0A4 /* My_CoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF33542BE14501003EE0A4 /* My_CoinApp.swift */; };
-		07FF33572BE14501003EE0A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF33562BE14501003EE0A4 /* ContentView.swift */; };
+		07FF33552BE14501003EE0A4 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF33542BE14501003EE0A4 /* App.swift */; };
 		07FF33592BE14503003EE0A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FF33582BE14503003EE0A4 /* Assets.xcassets */; };
-		07FF335C2BE14503003EE0A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FF335B2BE14503003EE0A4 /* Preview Assets.xcassets */; };
+		07FF33632BE1451C003EE0A4 /* CoinRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF33622BE1451C003EE0A4 /* CoinRow.swift */; };
+		07FF33652BE14522003EE0A4 /* CoinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF33642BE14522003EE0A4 /* CoinListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07FF33512BE14501003EE0A4 /* My Coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Coin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07FF33542BE14501003EE0A4 /* My_CoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_CoinApp.swift; sourceTree = "<group>"; };
-		07FF33562BE14501003EE0A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07FF33542BE14501003EE0A4 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		07FF33582BE14503003EE0A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07FF335B2BE14503003EE0A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07FF33622BE1451C003EE0A4 /* CoinRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRow.swift; sourceTree = "<group>"; };
+		07FF33642BE14522003EE0A4 /* CoinListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +51,12 @@
 		07FF33532BE14501003EE0A4 /* My Coin */ = {
 			isa = PBXGroup;
 			children = (
-				07FF33542BE14501003EE0A4 /* My_CoinApp.swift */,
-				07FF33562BE14501003EE0A4 /* ContentView.swift */,
+				07FF33542BE14501003EE0A4 /* App.swift */,
+				07FF33622BE1451C003EE0A4 /* CoinRow.swift */,
+				07FF33642BE14522003EE0A4 /* CoinListView.swift */,
 				07FF33582BE14503003EE0A4 /* Assets.xcassets */,
-				07FF335A2BE14503003EE0A4 /* Preview Content */,
 			);
 			path = "My Coin";
-			sourceTree = "<group>";
-		};
-		07FF335A2BE14503003EE0A4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				07FF335B2BE14503003EE0A4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +117,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07FF335C2BE14503003EE0A4 /* Preview Assets.xcassets in Resources */,
 				07FF33592BE14503003EE0A4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07FF33572BE14501003EE0A4 /* ContentView.swift in Sources */,
-				07FF33552BE14501003EE0A4 /* My_CoinApp.swift in Sources */,
+				07FF33632BE1451C003EE0A4 /* CoinRow.swift in Sources */,
+				07FF33652BE14522003EE0A4 /* CoinListView.swift in Sources */,
+				07FF33552BE14501003EE0A4 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +263,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"My Coin/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"My Coin/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
