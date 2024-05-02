@@ -14,5 +14,7 @@ struct CoinListView: View {
 }
 
 #Preview {
-    CoinListView()
+    NavigationStack {
+        CoinListView()
+    }
 }

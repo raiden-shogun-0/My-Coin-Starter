@@ -11,7 +11,9 @@ import SwiftUI
 struct My_CoinApp: App {
     var body: some Scene {
         WindowGroup {
-            CoinListView()
+            NavigationStack {
+                CoinListView()
+            }
         }
     }
 }
